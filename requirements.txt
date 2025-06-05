@@ -1,0 +1,7 @@
+boto3
+langchain
+Streamlit
+langchain_community
+langchain-pinecone
+langchain_pinecone
+langchain_aws
