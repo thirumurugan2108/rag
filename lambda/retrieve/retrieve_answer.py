@@ -52,7 +52,6 @@ def get_claude_llm():
     return llm    
 
 def getVectorStore():
-    pc = Pinecone(api_key="312601e0-eb28-418c-82f5-f3cd8c0d14c3")
     index = pc.Index("langchain-rag-index")
     data_embeddings=BedrockEmbeddings(
     credentials_profile_name= 'default',
